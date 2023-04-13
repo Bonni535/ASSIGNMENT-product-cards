@@ -21,3 +21,12 @@ body {
     display: flex;
     object-position: center;
 }
+
+.product-availability {
+    display: flex;
+    width: 100%;
+    background-color: darkgray;
+    color: yellow;
+
+
+}
