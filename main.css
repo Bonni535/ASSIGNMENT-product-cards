@@ -1,3 +1,23 @@
 body {
     background-color: aquamarine;
 }
+
+.myCards {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.card-title {
+    display: flex;
+    border: 1px;
+    border-color: lightblue;
+    text-align: center;
+
+}
+
+.card-img-top {
+    display: flex;
+    object-position: center;
+}
