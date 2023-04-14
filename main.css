@@ -1,11 +1,15 @@
 body {
     background-color: aquamarine;
+    display: flex;
 }
 
-.myCards {
+.col {
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
+    width: 300px;
+    justify-content: center;
+    text-align: justify;
 
 }
 
@@ -13,13 +17,18 @@ body {
     display: flex;
     border: 1px;
     border-color: lightblue;
-    text-align: center;
+    justify-content: center;
 
 }
 
 .card-img-top {
     display: flex;
     object-position: center;
+    
+}
+
+.card-text {
+    text-align: justify;
 }
 
 .product-availability {
