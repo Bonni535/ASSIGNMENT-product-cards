@@ -14,7 +14,7 @@ body {
 }
 
 .card-title {
-    display: flex;
+    border-style: solid;
     border: 1px;
     border-color: lightblue;
     justify-content: center;
@@ -36,6 +36,4 @@ body {
     width: 100%;
     background-color: darkgray;
     color: yellow;
-
-
 }
